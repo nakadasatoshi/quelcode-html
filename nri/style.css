@@ -6,6 +6,8 @@ header{
     height:60px;
     display:flex;
     justify-content:space-between;
+    position:fixed;
+    background-color:white;
 }
 
 header ul{
