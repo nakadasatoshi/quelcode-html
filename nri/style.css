@@ -1,3 +1,7 @@
+body{
+    font-family:"Noto Sans JP";
+}
+
 /* header
 ------------------------------------------------------------- */
 
@@ -80,11 +84,13 @@ main{
 .breadcrumb li{
     list-style-type: none;
     font-size:15px;
+    
 }
 
 .breadcrumb a{
     color:#808080;
     text-decoration:none;
+
 }
 
 .breadcrumb li:after{
@@ -94,6 +100,31 @@ main{
 
 .breadcrumb li:last-child:after{
     content:"";
+}
+
+.building{
+    background-image: url(images/h1_whats_2.jpg);
+    background-position:center;
+    background-size:cover;
+    height:250px;
+    margin:30px 0 0 0;
+    display:block;
+}
+
+.building p{
+    font-size:1.2rem;
+    color:white;
+    padding-top:40px;
+    padding-left:24%;
+    font-weight:400;
+}
+
+.building h1{
+    font-size:1.8rem;
+    color:white;
+    padding-left:24%;
+    margin-top:-1rem;
+    font-weight:bold;
 }
 
 
